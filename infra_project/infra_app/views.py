@@ -2,8 +2,8 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse('Workflow')
+    return HttpResponse('У меня получилось!')
 
 
 def second_page(request):
-    return HttpResponse('Workflow page2')
+    return HttpResponse('А это вторая страница!')
